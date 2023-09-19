@@ -2,7 +2,7 @@ import "./NavBar.css";
 
 function NavBar() {
     return <nav>
-        <ul>
+        <ul className="navBar">
             <li><a href="">Github</a></li>
             <li><a href="">LinkedIn</a></li>
             <li><a href="">Instagram</a></li>

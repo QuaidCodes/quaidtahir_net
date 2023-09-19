@@ -3,4 +3,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
 }
+
+.navBar li {
+    padding: 5px;
+}
+
+.navBar li:hover {
+    background-color: black;
+}
+
+.navBar li:hover a {
+    color: white;
+}
+
+.navBar a {
+    color: black;
+}
+
