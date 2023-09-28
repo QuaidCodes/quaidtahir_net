@@ -1,9 +1,12 @@
 import {useState} from "react";
+import "./BackgroundVideo.css";
 
 function BackgroundVideo() {    
 
     return <>
-        <video src="C:\Users\quaid\Desktop\Coding\WebDev\quaidtahir_net\src\videos\BgVideo.mp4" widht="100" height="100" controls></video>
+        <video className="bg-video">
+            <source src="src\videos\BgVideo.mp4" />
+        </video>
     </>
 }
 
