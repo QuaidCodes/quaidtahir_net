@@ -1,12 +1,13 @@
-import BackgroundVideo from "./BackgroundVideoDirectory/BackgroundVideo";
+import NavBar from "../NavigationBar/NavBar";
+import Footer from "../FooterDom/Footer";
 
 function LandingPage() {
-    return <>
-        <BackgroundVideo />
-        <div className="title">
-            <h1>Quaid Tahir</h1>
-        </div>
+  return (
+    <>
+      <NavBar />
+      <Footer />
     </>
+  );
 }
 
 export default LandingPage;

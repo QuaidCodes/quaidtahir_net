@@ -1,0 +1,23 @@
+
+.home-main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-position {
+    align-self: flex-start;
+}
+
+.home-introduction {
+    align-self: flex-start;
+}
+
+
+.profile-image {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}

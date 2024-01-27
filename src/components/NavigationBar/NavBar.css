@@ -1,24 +1,15 @@
 
 .navBar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px;
-}
-
-.navBar li {
-    padding: 5px;
-}
-
-.navBar li:hover {
-    background-color: black;
-}
-
-.navBar li:hover a {
-    color: white;
+    justify-content: center;
 }
 
 .navBar a {
-    color: black;
+    padding: 10px;
+    transition: all 0.2s ease-out;
 }
 
+.navBar a:hover {
+    background-color: black;
+    color: white;
+}
