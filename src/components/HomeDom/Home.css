@@ -6,6 +6,13 @@
     flex-direction: column;
 }
 
+.profile-image {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 .title-position {
     align-self: flex-start;
 }
@@ -14,10 +21,7 @@
     align-self: flex-start;
 }
 
-
-.profile-image {
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+.home-introduction p {
+    margin-block: 10px;
 }
+
