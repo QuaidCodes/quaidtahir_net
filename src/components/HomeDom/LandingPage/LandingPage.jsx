@@ -1,6 +1,8 @@
 
 import { Link } from "react-router-dom";
 
+import PortfolioIcon from "../../../images/icons/icons8-portfolio-50.png"
+import ContactIcon from "../../../images/icons/icons8-contact-50.png"
 import Music from "../../Music/Music"
 import "./LandingPage.css";
 
@@ -13,8 +15,8 @@ function LandingPage() {
       <h1>This is Quaid Tahir.</h1>
 
       <div className="landing-page-btns">
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/portfolio"><img src={PortfolioIcon} alt="Portfolio Icon" />Portfolio</Link>
+        <Link to="/contact"><img src={ContactIcon} alt="Contact Icon" />Contact</Link>
       </div>
     </section>
   );
