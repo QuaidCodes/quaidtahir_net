@@ -1,15 +1,20 @@
 
 .navBar {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
 }
 
 .navBar a {
-    padding: 10px;
-    transition: all 0.2s ease-out;
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    transition: all 0.2s ease-in-out;
 }
 
 .navBar a:hover {
-    background-color: black;
-    color: white;
+    background-color: #36d1c4;
+    color: #36626a;
+    letter-spacing: 1px;
 }
