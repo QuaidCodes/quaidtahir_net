@@ -1,0 +1,62 @@
+
+.message {
+    margin: 5px;
+}
+
+.message h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.message form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-name {
+    display: flex;
+    gap: 9px;
+}
+
+.message input {
+    font-size: 18px;
+    padding: 10px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    color: #0aa0f6;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+.message input:focus {
+    border: 3px solid #61d4b3;
+}
+
+.message input::placeholder {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.message input[type=email] {
+    width: 100%;
+}
+
+.message-email-presets {
+    display: flex;
+    gap: 2PX;
+    justify-content: flex-end;
+    margin-block: 5px;
+}
+
+.message-email-presets button {
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.message-email-presets button:hover {
+    background-color: #0881a3;
+    color: #5be7a9;
+}

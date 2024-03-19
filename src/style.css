@@ -12,12 +12,30 @@
 /* font-family: "Graduate", serif; */
 
 
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
 }
 
 .wrapper {
