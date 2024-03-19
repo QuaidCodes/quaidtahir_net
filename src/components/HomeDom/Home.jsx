@@ -1,55 +1,14 @@
-import FeaturedProject from "../ProjectsDom/FeaturedProject/FeaturedProject";
 
+import LandingPage from "./LandingPage/LandingPage";
+import FeaturedProject from "../ProjectsDom/FeaturedProject/FeaturedProject";
 import "./Home.css";
 
 function Home() {
   return (
     <>
-      <div className="home-page">
-        <div className="home-main-content">
-          <div className="profile-image"></div>
-
-          <div className="title-position">
-            <h1 className="home-title">Quaid Tahir</h1>
-            <h3 className="job-title">Software Engineer</h3>
-          </div>
-          <div className="home-introduction">
-            <p>
-              Hello World! I'm Quaid Tahir, and I'm deeply passionate about
-              software development and the endless possibilities it offers.
-              Learning is at the core of my journey, and I thrive on exploring
-              new technologies and pushing my boundaries to achieve greater
-              heights.
-            </p>
-
-            <p>
-              My ambition knows no bounds, and I'm driven by a curiosity that
-              fuels my enthusiasm for artificial intelligence (AI). I see AI not
-              just as a field of study but as a powerful tool with the potential
-              to revolutionize industries and enhance our lives in meaningful
-              ways.
-            </p>
-
-            <p>
-              Fuelled by an insatiable thirst for knowledge and a deep-rooted
-              passion for innovation, I am on an exhilarating journey to unravel
-              the mysteries of software development and AI. Every discovery,
-              every breakthrough, ignites my curiosity and drives me to explore
-              new frontiers, eager to harness the transformative power of
-              technology and make a profound impact on the world.
-            </p>
-
-            <p>
-              The portfolio presented below provides an intimate glimpse into my
-              evolving journey and accomplishments.
-            </p>
-          </div>
-
-          <h1>Featured Project</h1>
-          <FeaturedProject />
-
-
-        </div>
+      <div className="home-main-content">
+        <LandingPage />
+        <FeaturedProject />
       </div>
     </>
   );

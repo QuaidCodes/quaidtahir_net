@@ -1,0 +1,9 @@
+
+.home-introduction {
+    align-self: flex-start;
+}
+
+.home-introduction p {
+    margin-block: 10px;
+    font-size: 18px;
+}

@@ -4,24 +4,31 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white; 
 }
 
 .profile-image {
-    background-color: black;
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
 }
 
 .title-position {
-    align-self: flex-start;
+    text-align: center;
+    font-family: "Trochut", sans-serif;
 }
 
-.home-introduction {
-    align-self: flex-start;
+.name {
+    font-size: 40px;
 }
 
-.home-introduction p {
-    margin-block: 10px;
+
+
+.featured-project-section h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
 }
+
 

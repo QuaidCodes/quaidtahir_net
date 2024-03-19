@@ -1,12 +1,15 @@
-import LandingPage from "./LandingPageDirectory/LandingPage";
+
+import NavBar from "./NavigationBar/NavBar"
+import BackgroundImage from "./BackgroundImageDir/BackgroundImage";
 import WebsiteRoutes from "./WebsiteRoutesDom/WebsiteRoutes";
 
 function App() {
   return (
     <>
       <div className="wrapper">
+        <BackgroundImage />
         <div className="container">
-          <LandingPage />
+          <NavBar />
           <WebsiteRoutes />
         </div>
       </div>
