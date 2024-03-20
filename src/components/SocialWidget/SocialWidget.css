@@ -1,0 +1,25 @@
+
+.social-widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;;
+}
+
+.social-widget img {
+    height: 40px;
+    width: 40px;
+    border-radius: 45%;
+    background-color: white;
+    padding: 5px;
+    transition: all 0.6s ease-in-out;
+}
+
+.social-widget img:hover {
+    transform: rotate(360deg);
+}
+

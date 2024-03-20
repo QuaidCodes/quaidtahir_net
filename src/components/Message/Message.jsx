@@ -19,12 +19,15 @@ function Message() {
             <button className="preset-btn">@yahoo.com</button>
           </div>
         </div>
-        
-        <input type="tel" placeholder="Phone" />
+
+        <input type="tel" placeholder="Phone (Optional)" />
 
         <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button>Clear</button>
-        <button>Submit</button>
+
+        <div className="message-btns">
+          <button className="message-clear-btn">Clear</button>
+          <button className="message-submit-btn">Submit</button>
+        </div>
       </form>
     </section>
   );
