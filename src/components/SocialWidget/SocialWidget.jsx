@@ -1,3 +1,4 @@
+import { useState } from "react";
 
 import facebook1 from "../../images/socials/icons8-facebook-50 (1).png";
 import facebook from "../../images/socials/icons8-facebook-50.png";
@@ -12,13 +13,29 @@ import x from "../../images/socials/icons8-x-50.png";
 import "./SocialWidget.css";
 
 function SocialWidget() {
+  const [githubState, setgithubState] = useState(github);
+  const [linkedinState, setlinkedinState] = useState(linkedin);
+  const [instaState, setinstaState] = useState(insta);
+  const [facebookState, setfacebookState] = useState(facebook);
+  const [xState, setxState] = useState(x);
+
   return (
     <div className="social-widget">
-      <a href="" target="_blank"><img src={facebook1} alt="" /> Github</a>
-      <a href="" target="_blank"><img src={insta1} alt="" /> Linked In</a>
-      <a href="" target="_blank"><img src={github1} alt="" /> X</a>
-      <a href="" target="_blank"><img src={linkedin1} alt="" /> Instagram</a>
-      <a href="" target="_blank"><img src={x1} alt="" /> facebook</a>
+      <a href="" target="_blank">
+        <img src={githubState} alt="Github" />
+      </a>
+      <a href="" target="_blank">
+        <img src={linkedinState} alt="LinkedIn" />
+      </a>
+      <a href="" target="_blank">
+        <img src={instaState} alt="Instagram" />
+      </a>
+      <a href="" target="_blank">
+        <img src={xState} alt="X" />
+      </a>
+      <a href="" target="_blank">
+        <img src={facebookState} alt="Facebook" />
+      </a>
     </div>
   );
 }

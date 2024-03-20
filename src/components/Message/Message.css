@@ -60,3 +60,42 @@
     background-color: #0881a3;
     color: #5be7a9;
 }
+
+.message textarea {
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    color: #015668;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+
+.message-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.message-btns button {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+
+.message-clear-btn:hover {
+    background-color: #e70000;
+    color: white;
+}
+
+.message-submit-btn:hover {
+    background-color: #0b8457;
+    color: white;
+}
+
+
+
+
+
+
