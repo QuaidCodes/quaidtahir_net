@@ -1,5 +1,71 @@
 
 
 .portfolio {
+    margin: auto;
+    margin-block: 20px;
+    padding: 15px;
+    width: 70%;
+    box-shadow: whitesmoke 0px 1px 7px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    background-color: transparent;
     color: white;
+    height: auto;
+}
+
+.portfolio-header {
+    text-align: center;
+    border-bottom: 2px solid teal;
+}
+
+.portfolio-name {
+    font-family: "Graduate", serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.portfolio-job-title {
+    font-family: "Trochut", sans-serif;
+}
+
+.portfolio-summary {
+    margin-block: 10px;
+    font-size: 16px;
+}
+
+.portfolio-contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.portfolio-contact-links a {
+    text-decoration: underline;
+    color: white;
+}
+
+.portfolio-contact-links a:hover {
+    text-decoration: none;
+}
+
+.portfolio-content {
+    display: flex;
+}
+
+.portfolio-content-left {
+    flex: 40%;
+    margin-left: 20px;
+}
+
+.portfolio-content-right {
+    flex: 60%;
+}
+
+.portfolio-content h2, .portfolio-contents h1 {
+    text-decoration: underline;
+}
+
+.portfolio-content li {
+    list-style: square;
+    list-style-position: outside;
 }
