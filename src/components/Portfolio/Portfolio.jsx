@@ -25,24 +25,30 @@ function Portfolio() {
       <div className="portfolio-content">
         <div className="portfolio-content-left">
           <ul>
-            <h2 className="portfolio-sub-heading-2">Pogramming Languages</h2>
-            <li>HTML/CSS</li>
-            <li>JavaScript/JSON</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>Java</li>
+            <div className="portfolio-content-sub-section">
+              <h2 className="portfolio-sub-heading-2">Pogramming Languages</h2>
+              <li>HTML/CSS</li>
+              <li>JavaScript/JSON</li>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Java</li>
+            </div>
 
-            <h2 className="portfolio-sub-heading-2">Frameworks</h2>
-            <li>React</li>
-            <li>Django</li>
+            <div className="portfolio-content-sub-section">
+              <h2 className="portfolio-sub-heading-2">Frameworks</h2>
+              <li>React</li>
+              <li>Django</li>
+            </div>
 
-            <h2 className="portfolio-sub-heading-2">
-              Additional Technical Skills
-            </h2>
-            <li>Linux Terminal</li>
-            <li>Windows Command Line</li>
-            <li>Git Versionioning</li>
-            <li>Basic Network+</li>
+            <div className="portfolio-content-sub-section">
+              <h2 className="portfolio-sub-heading-2">
+                Additional Technical Skills
+              </h2>
+              <li>Linux Terminal</li>
+              <li>Windows Command Line</li>
+              <li>Git Versionioning</li>
+              <li>Basic Network+</li>
+            </div>
           </ul>
 
           <div className="portfolio-content-sub-section">
@@ -61,7 +67,7 @@ function Portfolio() {
             </div>
           </div>
 
-          <div>
+          <div className="portfolio-content-sub-section">
             <h2 className="portfolio-sub-heading-2">Certificates</h2>
 
             <h3>Foundation: Data, Data, Everywhere</h3>
@@ -71,7 +77,7 @@ function Portfolio() {
             <p>Amazon, Coursera 2021</p>
           </div>
 
-          <div className="portfolio-contact-links">
+          <div className="portfolio-contact-links portfolio-content-sub-section">
             <h2>Contact Links</h2>
             <div>
               <a href="mailto:quaidtahirw@gmail.com">quaidtahirw@gmail.com</a>
@@ -88,96 +94,95 @@ function Portfolio() {
         </div>
 
         <div className="portfolio-content-right">
+          <h2 className="portfolio-sub-heading-2">Work Experience</h2>
           <div className="portfolio-content-sub-section">
-            <h2 className="portfolio-sub-heading-2">Work Experience</h2>
-            <div>
-              <h3>Amazon</h3>
-              <p>IT Support Specialist</p>
-              <p>Nov 2022 - Present</p>
+            <h3>Amazon</h3>
+            <p>IT Support Specialist</p>
+            <p>Nov 2022 - Present</p>
 
-              <p>
-                Provided technical support to employees, troubleshooting
-                hardware and software issues, and ensuring the smooth operation
-                of IT systems. Collaborated with cross-functional teams to
-                implement IT solutions and enhancements, improving efficiency
-                and productivity within the organization.
-              </p>
+            <p>
+              Provided technical support to employees, troubleshooting hardware
+              and software issues, and ensuring the smooth operation of IT
+              systems. Collaborated with cross-functional teams to implement IT
+              solutions and enhancements, improving efficiency and productivity
+              within the organization.
+            </p>
 
-              <ul>
-                <li>
-                  Managed IT infrastructure, including hardware and software
-                  installations, network configurations, and system upgrades to
-                  ensure optimal performance and security.
-                </li>
-                <li>
-                  Monitored and resolved IT tickets and service requests within
-                  defined SLAs, providing timely and effective technical
-                  assistance to internal stakeholders and minimizing downtime.
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li>
+                Managed IT infrastructure, including hardware and software
+                installations, network configurations, and system upgrades to
+                ensure optimal performance and security.
+              </li>
+              <li>
+                Monitored and resolved IT tickets and service requests within
+                defined SLAs, providing timely and effective technical
+                assistance to internal stakeholders and minimizing downtime.
+              </li>
+            </ul>
+          </div>
 
-            <div>
-              <h3>Portfolio Website Project</h3>
-              <p>Dynamic portfolio created with React</p>
-              <p>April 2024</p>
+          <div className="portfolio-content-sub-section">
+            <h3>Portfolio Website Project</h3>
+            <p>Dynamic portfolio created with React</p>
+            <p>April 2024</p>
 
-              <p>
-                Developed a dynamic portfolio website using React to showcase
-                skills and projects in an interactive and engaging manner.
-                Implemented responsive design principles for optimal viewing
-                across devices and optimized performance for a seamless user
-                experience.
-              </p>
+            <p>
+              Developed a dynamic portfolio website using React to showcase
+              skills and projects in an interactive and engaging manner.
+              Implemented responsive design principles for optimal viewing
+              across devices and optimized performance for a seamless user
+              experience.
+            </p>
 
-              <ul>
-                <li>
-                  Implemented React components and state management techniques
-                  to create a modular and scalable architecture for the
-                  portfolio website, enhancing code reusability and
-                  maintainability.
-                </li>
-                <li>
-                  Implemented version control using Git and GitHub to track code
-                  changes, and deploy updates seamlessly, ensuring a streamlined
-                  development and deployment process.
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li>
+                Implemented React components and state management techniques to
+                create a modular and scalable architecture for the portfolio
+                website, enhancing code reusability and maintainability.
+              </li>
+              <li>
+                Implemented version control using Git and GitHub to track code
+                changes, and deploy updates seamlessly, ensuring a streamlined
+                development and deployment process.
+              </li>
+            </ul>
+          </div>
 
-            <div>
-              <h3>Chatbot Desktop Application Project</h3>
-              <p>Chatbot created using Python</p>
-              <p>April 2024</p>
+          <div className="portfolio-content-sub-section">
+            <h3>Chatbot Desktop Application Project</h3>
+            <p>Chatbot created using Python</p>
+            <p>April 2024</p>
 
-              <p>
-                Designed and developed a chatbot desktop application using
-                Python and natural language processing (NLP) techniques.
-                Integrated machine learning algorithms to enhance chatbot
-                accuracy and functionality, allowing realtime understanding and
-                response to user queries.
-              </p>
+            <p>
+              Designed and developed a chatbot desktop application using Python
+              and natural language processing (NLP) techniques. Integrated
+              machine learning algorithms to enhance chatbot accuracy and
+              functionality, allowing realtime understanding and response to
+              user queries.
+            </p>
 
-              <ul>
-                <li>
-                  Implemented a GUI (Graphical User Interface) using Tkinter in
-                  Python for the chatbot desktop application, providing a
-                  user-friendly interface for seamless interaction and
-                  navigation
-                </li>
-                <li>
-                  Utilized SQLite database to store and retrieve user
-                  preferences and chat history, enhancing the chatbot's ability
-                  to provide personalized responses and maintain conversation
-                  context across sessions
-                </li>
-              </ul>
-            </div>
+            <ul>
+              <li>
+                Implemented a GUI (Graphical User Interface) using Tkinter in
+                Python for the chatbot desktop application, providing a
+                user-friendly interface for seamless interaction and navigation
+              </li>
+              <li>
+                Utilized SQLite database to store and retrieve user preferences
+                and chat history, enhancing the chatbot's ability to provide
+                personalized responses and maintain conversation context across
+                sessions
+              </li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <button>Download pdf</button>
+      <div className="portfolio-btn">
+        <button>Download Word</button>
+        <button>Download PDF</button>
+      </div>
     </section>
   );
 }
