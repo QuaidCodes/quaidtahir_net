@@ -10,15 +10,14 @@ function NavBar() {
   const [bgAbout, setBgColorAbout] = useState("");
   const [bgContact, setBgColorContact] = useState("");
 
-  function selectedNavBar(event, target) {
+  function selectedNavBar(target) {
     resetBg();
 
-    if (target == "home") setBgColor("#36d1c4");
+    if (target      === "home") setBgColor("#36d1c4");
     else if (target === "portfolio") setBgColorPortfolio("#36d1c4");
     else if (target === "projects") setBgColorProjects("#36d1c4");
     else if (target === "about") setBgColorAbout("#36d1c4");
     else if (target === "contact") setBgColorContact("#36d1c4");
-
   }
 
   function resetBg() {
