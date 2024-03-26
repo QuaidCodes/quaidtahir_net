@@ -13,7 +13,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.navBar a:hover {
+.navBar a:hover, .navBar a:focus {
     background-color: #36d1c4;
     color: #36626a;
     letter-spacing: 1px;

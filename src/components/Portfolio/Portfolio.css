@@ -63,6 +63,7 @@
 
 .portfolio-content h2, .portfolio-contents h1 {
     text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 .portfolio-content li {
@@ -76,6 +77,19 @@
 
 .portfolio-content-right .portfolio-content-sub-section {
     border-bottom: 1px solid white;
+}
+
+.portfolio-content-sub-section div {
+    margin-bottom: 5px;
+}
+
+
+.experience-margin {
+    margin-block: 10px;
+}
+
+.experience-margin ul {
+    margin-top: 10px;
 }
 
 .portfolio-btn {
@@ -101,3 +115,4 @@
     background-color: white;
     color: teal;
 }
+

@@ -1,17 +1,24 @@
 
 .message {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 5px;
 }
 
 .message h1 {
     text-align: center;
-    margin-bottom: 5px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: white;
 }
 
 .message form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 50%;
 }
 
 .message-name {
@@ -22,20 +29,22 @@
 .message input {
     font-size: 18px;
     padding: 10px;
-    border: 3px solid transparent;
+    border: 3px solid white;
     border-radius: 10px;
+    background-color: transparent;
     color: #0aa0f6;
     letter-spacing: 1px;
     transition: all 0.2s ease-in-out;
 }
 
-.message input:focus {
+.message input:focus, .message textarea:focus {
     border: 3px solid #61d4b3;
 }
 
-.message input::placeholder {
+.message input::placeholder, .message textarea::placeholder {
     font-size: 14px;
     font-style: italic;
+    color: #f7f6e7;
 }
 
 .message input[type=email] {
@@ -61,12 +70,19 @@
     color: #5be7a9;
 }
 
+.message-email-presets button:focus {
+    background-color: #0881a3;
+    color: #5be7a9;
+}
+
+
 .message textarea {
-    font-size: 13px;
+    font-size: 15px;
     padding: 10px;
     border-radius: 10px;
-    border: 3px solid transparent;
-    color: #015668;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
     letter-spacing: 1px;
     transition: all 0.2s ease-in-out;
 }
@@ -84,12 +100,12 @@
     transition: all 0.2s ease-in;
 }
 
-.message-clear-btn:hover {
+.message-clear-btn:hover, .message-clear-btn:focus {
     background-color: #e70000;
     color: white;
 }
 
-.message-submit-btn:hover {
+.message-submit-btn:hover, .message-submit-btn:focus {
     background-color: #0b8457;
     color: white;
 }
