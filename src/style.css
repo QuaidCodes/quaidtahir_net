@@ -19,6 +19,26 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #36d1c4;
+    /* border-radius: 100vw; */
+    /* margin-block: 10px; */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #36626a;
+    border: 1px solid #36d1c4;
+    /* border-radius: 100vw; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a21232;
+}
+
 input {
     outline: none;
     border: none;
@@ -54,3 +74,5 @@ section {
 .container {
     width: 80%; 
 }
+
+
