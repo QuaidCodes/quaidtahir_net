@@ -1,18 +1,76 @@
-import {Link, Outlet} from 'react-router-dom';
+import { Link, Outlet } from "react-router-dom";
+import { useState } from "react";
 
 import "./NavBar.css";
 
 function NavBar() {
-    return <nav>
-        <ul className="navBar">
-            <Link to="/">Home</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-            <Outlet />
-        </ul>
+  const [bgColor, setBgColor] = useState(null);
+  const [bgPortfolio, setBgColorPortfolio] = useState("");
+  const [bgProjects, setBgColorProjects] = useState("");
+  const [bgAbout, setBgColorAbout] = useState("");
+  const [bgContact, setBgColorContact] = useState("");
+
+  function selectedNavBar(event, target) {
+    resetBg();
+
+    if (target == "home") setBgColor("#36d1c4");
+    else if (target === "portfolio") setBgColorPortfolio("#36d1c4");
+    else if (target === "projects") setBgColorProjects("#36d1c4");
+    else if (target === "about") setBgColorAbout("#36d1c4");
+    else if (target === "contact") setBgColorContact("#36d1c4");
+
+  }
+
+  function resetBg() {
+    setBgColor("");
+    setBgColorPortfolio("");
+    setBgColorProjects("");
+    setBgColorAbout("");
+    setBgColorContact("");
+  }
+
+  return (
+    <nav>
+      <ul className="navBar">
+        <Link
+          to="/"
+          style={{ backgroundColor: bgColor }}
+          onClick={() => selectedNavBar("home")}
+        >
+          Home
+        </Link>
+        <Link
+          to="/portfolio"
+          style={{ backgroundColor: bgPortfolio }}
+          onClick={() => selectedNavBar("portfolio")}
+        >
+          Portfolio
+        </Link>
+        <Link
+          to="/projects"
+          style={{ backgroundColor: bgProjects }}
+          onClick={() => selectedNavBar("projects")}
+        >
+          Projects
+        </Link>
+        <Link
+          to="/about"
+          style={{ backgroundColor: bgAbout }}
+          onClick={() => selectedNavBar("about")}
+        >
+          About
+        </Link>
+        <Link
+          to="/contact"
+          style={{ backgroundColor: bgContact }}
+          onClick={() => selectedNavBar("contact")}
+        >
+          Contact
+        </Link>
+        <Outlet />
+      </ul>
     </nav>
+  );
 }
 
 export default NavBar;

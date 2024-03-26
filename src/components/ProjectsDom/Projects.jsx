@@ -1,9 +1,11 @@
 
+import FeaturedProject from "./FeaturedProject/FeaturedProject";
+
 import "./Projects.css";
 
 function Projects() {
     return <>
-        <h1>Projects</h1>
+        <FeaturedProject />
     </>
 }
 
