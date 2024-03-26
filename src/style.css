@@ -32,6 +32,11 @@ textarea {
 button {
     background-color: white;
     border: none;
+    outline: none;
+}
+
+a {
+    outline: none;
 }
 
 section {

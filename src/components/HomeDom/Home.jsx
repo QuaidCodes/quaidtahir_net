@@ -4,7 +4,6 @@ import FeaturedProject from "../ProjectsDom/FeaturedProject/FeaturedProject";
 import FeaturedVod from "../FeaturedVod/FeaturedVod";
 import Message from "../Message/Message";
 import "./Home.css";
-import SocialWidget from "../SocialWidget/SocialWidget";
 
 function Home() {
   return (
@@ -12,9 +11,8 @@ function Home() {
       <div className="home-main-content">
         <LandingPage />
         <FeaturedProject />
-        <FeaturedVod />
+        {/* <FeaturedVod /> */}
         <Message />
-        <SocialWidget />
       </div>
     </>
   );

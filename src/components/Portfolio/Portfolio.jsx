@@ -100,26 +100,28 @@ function Portfolio() {
             <p>IT Support Specialist</p>
             <p>Nov 2022 - Present</p>
 
-            <p>
-              Provided technical support to employees, troubleshooting hardware
-              and software issues, and ensuring the smooth operation of IT
-              systems. Collaborated with cross-functional teams to implement IT
-              solutions and enhancements, improving efficiency and productivity
-              within the organization.
-            </p>
+            <div className="experience-margin">
+              <p>
+                Provided technical support to employees, troubleshooting
+                hardware and software issues, and ensuring the smooth operation
+                of IT systems. Collaborated with cross-functional teams to
+                implement IT solutions and enhancements, improving efficiency
+                and productivity within the organization.
+              </p>
 
-            <ul>
-              <li>
-                Managed IT infrastructure, including hardware and software
-                installations, network configurations, and system upgrades to
-                ensure optimal performance and security.
-              </li>
-              <li>
-                Monitored and resolved IT tickets and service requests within
-                defined SLAs, providing timely and effective technical
-                assistance to internal stakeholders and minimizing downtime.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Managed IT infrastructure, including hardware and software
+                  installations, network configurations, and system upgrades to
+                  ensure optimal performance and security.
+                </li>
+                <li>
+                  Monitored and resolved IT tickets and service requests within
+                  defined SLAs, providing timely and effective technical
+                  assistance to internal stakeholders and minimizing downtime.
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="portfolio-content-sub-section">
@@ -127,26 +129,29 @@ function Portfolio() {
             <p>Dynamic portfolio created with React</p>
             <p>April 2024</p>
 
-            <p>
-              Developed a dynamic portfolio website using React to showcase
-              skills and projects in an interactive and engaging manner.
-              Implemented responsive design principles for optimal viewing
-              across devices and optimized performance for a seamless user
-              experience.
-            </p>
+            <div className="experience-margin">
+              <p>
+                Developed a dynamic portfolio website using React to showcase
+                skills and projects in an interactive and engaging manner.
+                Implemented responsive design principles for optimal viewing
+                across devices and optimized performance for a seamless user
+                experience.
+              </p>
 
-            <ul>
-              <li>
-                Implemented React components and state management techniques to
-                create a modular and scalable architecture for the portfolio
-                website, enhancing code reusability and maintainability.
-              </li>
-              <li>
-                Implemented version control using Git and GitHub to track code
-                changes, and deploy updates seamlessly, ensuring a streamlined
-                development and deployment process.
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Implemented React components and state management techniques
+                  to create a modular and scalable architecture for the
+                  portfolio website, enhancing code reusability and
+                  maintainability.
+                </li>
+                <li>
+                  Implemented version control using Git and GitHub to track code
+                  changes, and deploy updates seamlessly, ensuring a streamlined
+                  development and deployment process.
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="portfolio-content-sub-section">
@@ -154,27 +159,30 @@ function Portfolio() {
             <p>Chatbot created using Python</p>
             <p>April 2024</p>
 
-            <p>
-              Designed and developed a chatbot desktop application using Python
-              and natural language processing (NLP) techniques. Integrated
-              machine learning algorithms to enhance chatbot accuracy and
-              functionality, allowing realtime understanding and response to
-              user queries.
-            </p>
+            <div className="experience-margin">
+              <p>
+                Designed and developed a chatbot desktop application using
+                Python and natural language processing (NLP) techniques.
+                Integrated machine learning algorithms to enhance chatbot
+                accuracy and functionality, allowing realtime understanding and
+                response to user queries.
+              </p>
 
-            <ul>
-              <li>
-                Implemented a GUI (Graphical User Interface) using Tkinter in
-                Python for the chatbot desktop application, providing a
-                user-friendly interface for seamless interaction and navigation
-              </li>
-              <li>
-                Utilized SQLite database to store and retrieve user preferences
-                and chat history, enhancing the chatbot's ability to provide
-                personalized responses and maintain conversation context across
-                sessions
-              </li>
-            </ul>
+              <ul>
+                <li>
+                  Implemented a GUI (Graphical User Interface) using Tkinter in
+                  Python for the chatbot desktop application, providing a
+                  user-friendly interface for seamless interaction and
+                  navigation
+                </li>
+                <li>
+                  Utilized SQLite database to store and retrieve user
+                  preferences and chat history, enhancing the chatbot's ability
+                  to provide personalized responses and maintain conversation
+                  context across sessions
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

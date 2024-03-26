@@ -2,7 +2,7 @@ import projectImage from "../../../images/tara-winstead-AI.jpg";
 import "./FeaturedProject.css";
 
 function FeaturedProject() {
-  const projectTitle = "Artificial Intelligence";
+  const projectTitle = "A.I Chatbot Application";
   const description = "";
 
   return (

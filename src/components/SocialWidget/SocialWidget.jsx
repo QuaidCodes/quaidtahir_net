@@ -21,19 +21,19 @@ function SocialWidget() {
 
   return (
     <div className="social-widget">
-      <a href="" target="_blank">
+      <a href="https://github.com/QuaidCodes" target="_blank">
         <img src={githubState} alt="Github" />
       </a>
-      <a href="" target="_blank">
+      <a href="https://www.linkedin.com/in/quaid-tahir-5a3057173/" target="_blank">
         <img src={linkedinState} alt="LinkedIn" />
       </a>
-      <a href="" target="_blank">
+      <a href="" target="_blank" className="social-widget-not-active">
         <img src={instaState} alt="Instagram" />
       </a>
-      <a href="" target="_blank">
+      <a href="" target="_blank" className="social-widget-not-active">
         <img src={xState} alt="X" />
       </a>
-      <a href="" target="_blank">
+      <a href="" target="_blank" className="social-widget-not-active">
         <img src={facebookState} alt="Facebook" />
       </a>
     </div>

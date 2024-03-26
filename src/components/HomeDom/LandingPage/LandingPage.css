@@ -38,7 +38,8 @@
     transition: all 0.3s ease-in-out;
 }
 
-.landing-page-btns a:hover {
+.landing-page-btns a:hover, .landing-page-btns a:focus {
+    outline: none;
     border-color: #418c9f;
     background-color: #418c9f;
 }
