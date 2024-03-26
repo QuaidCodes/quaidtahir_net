@@ -21,7 +21,7 @@
 
 .social-widget img:hover {
     transform: rotate(360deg);
-    background-color: #385170;
+    background-color: #97cba9;
 }
 
 .social-widget-not-active img:hover {
