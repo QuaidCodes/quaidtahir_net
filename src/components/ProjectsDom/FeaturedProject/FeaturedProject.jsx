@@ -6,7 +6,7 @@ function FeaturedProject() {
   const description = "";
 
   return (
-    <section className="featured-project">
+    <div className="featured-project">
       <h1>Featured Project</h1>
       <div className="featured-header">
         <img className="featured-image" src={projectImage} alt={projectTitle} />
@@ -59,7 +59,7 @@ function FeaturedProject() {
       <div className="featured-description">
         <p>{description}</p>
       </div>
-    </section>
+    </div>
   );
 }
 
