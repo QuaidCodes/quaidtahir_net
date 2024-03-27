@@ -14,9 +14,9 @@ function Message() {
     event.preventDefault();
 
     // g for gmail, o for outlook, y for yahoo
-    if (target === "g") setEmail(email + "@gmail.com");
-    else if (target === "o") setEmail(email + "@outlook.com");
-    else if (target === "y") setEmail(email + "@yahoo.com");
+    if (target === "gmail") setEmail(email + "@gmail.com");
+    else if (target === "outlook") setEmail(email + "@outlook.com");
+    else if (target === "yahoo") setEmail(email + "@yahoo.com");
   }
 
   return (
@@ -40,13 +40,13 @@ function Message() {
             required
           />
           <div className="message-email-presets">
-            <button className="preset-btn" onClick={(e) => preset(e, "g")}>
+            <button className="preset-btn" onClick={(e) => preset(e, "gmail")}>
               @gmail.com
             </button>
-            <button className="preset-btn" onClick={(e) => preset(e, "o")}>
+            <button className="preset-btn" onClick={(e) => preset(e, "outlook")}>
               @outlook.com
             </button>
-            <button className="preset-btn" onClick={(e) => preset(e, "y")}>
+            <button className="preset-btn" onClick={(e) => preset(e, "yahoo")}>
               @yahoo.com
             </button>
           </div>
@@ -54,12 +54,7 @@ function Message() {
 
         <input type="tel" placeholder="Phone (Optional)" />
 
-        <textarea
-          cols="30"
-          rows="10"
-          placeholder="Message"
-          required
-        ></textarea>
+        <textarea cols="30" rows="10" placeholder="Message" required></textarea>
 
         <div className="message-btns">
           <button className="message-clear-btn">Clear</button>
