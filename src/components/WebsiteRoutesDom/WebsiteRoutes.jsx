@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../HomeDom/Home";
 import Projects from "../ProjectsDom/Projects";
 import Portfolio from "../Portfolio/Portfolio"
-import About from "../About/About";
+import Papers from "../Papers/Papers";
 import Contact from "../Contact/Contact";
 
 function WebsiteRoutes() {
@@ -13,7 +13,7 @@ function WebsiteRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/aobut" element={<About />} />
+        <Route path="/papers" element={<Papers />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
