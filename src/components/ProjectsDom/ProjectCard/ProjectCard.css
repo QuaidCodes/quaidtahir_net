@@ -8,11 +8,17 @@
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
-    /* color: white; */
-    background-color: white;
+    color: white;
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .project-card:hover {
     transform: scale(1.05);
 }
+
+.project-card li {
+    list-style: square;
+    list-style-position: inside;
+}
+

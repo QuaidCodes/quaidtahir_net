@@ -7,7 +7,7 @@ function NavBar() {
   const [bgColor, setBgColor] = useState(null);
   const [bgPortfolio, setBgColorPortfolio] = useState("");
   const [bgProjects, setBgColorProjects] = useState("");
-  const [bgAbout, setBgColorAbout] = useState("");
+  const [bgPapers, setBgColorPapers] = useState("");
   const [bgContact, setBgColorContact] = useState("");
 
   function selectedNavBar(target) {
@@ -16,7 +16,7 @@ function NavBar() {
     if (target      === "home") setBgColor("#36d1c4");
     else if (target === "portfolio") setBgColorPortfolio("#36d1c4");
     else if (target === "projects") setBgColorProjects("#36d1c4");
-    else if (target === "about") setBgColorAbout("#36d1c4");
+    else if (target === "papers") setBgColorPapers("#36d1c4");
     else if (target === "contact") setBgColorContact("#36d1c4");
   }
 
@@ -24,7 +24,7 @@ function NavBar() {
     setBgColor("");
     setBgColorPortfolio("");
     setBgColorProjects("");
-    setBgColorAbout("");
+    setBgColorPapers("");
     setBgColorContact("");
   }
 
@@ -53,11 +53,11 @@ function NavBar() {
           Projects
         </Link>
         <Link
-          to="/about"
-          style={{ backgroundColor: bgAbout }}
-          onClick={() => selectedNavBar("about")}
+          to="/papers"
+          style={{ backgroundColor: bgPapers }}
+          onClick={() => selectedNavBar("papers")}
         >
-          About
+          Papers
         </Link>
         <Link
           to="/contact"

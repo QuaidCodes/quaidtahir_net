@@ -1,0 +1,35 @@
+
+.papers {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.papers h1 {
+    font-size: 50px;
+    margin-block: 30px 50px;
+}
+
+.paper-item {
+    width: 50%;
+}
+
+.paper-item h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.paper-item p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.paper-quote {
+    font-style: italic;
+}
