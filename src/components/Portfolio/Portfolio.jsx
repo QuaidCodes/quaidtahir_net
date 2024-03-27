@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+
+import portfolioPDF from "../../assets/QuaidTahirPortfolio.pdf";
+import portfolioPNG from "../../assets/QuaidTahirPortfolio.png";
+
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -188,8 +192,8 @@ function Portfolio() {
       </div>
 
       <div className="portfolio-btn">
-        <button>Download Word</button>
-        <button>Download PDF</button>
+        <a href={portfolioPDF} download="Quaid Tahir's Portfolio">Download PDF</a>
+        <a href={portfolioPNG} download="Quaid Tahir's Portfolio">Download PNG</a>
       </div>
     </section>
   );
