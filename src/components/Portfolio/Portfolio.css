@@ -99,7 +99,7 @@
     margin-block: 20px;
 }
 
-.portfolio-btn button {
+.portfolio-btn a {
     background-color: transparent;
     border: 1px solid white;
     padding: 10px;
@@ -110,7 +110,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.portfolio-btn button:hover {
+.portfolio-btn a:hover {
     background-color: white;
     color: teal;
 }

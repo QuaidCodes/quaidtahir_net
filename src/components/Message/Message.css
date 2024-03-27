@@ -20,11 +20,6 @@
   width: 50%;
 }
 
-.message-name {
-  display: flex;
-  gap: 9px;
-}
-
 .message input {
   font-size: 18px;
   padding: 10px;
