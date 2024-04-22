@@ -5,10 +5,12 @@ import "./ProjectNavigation.css";
 export default function ProjectNavigation() {
   return (
     <div className="project-navigation">
-      <Link to="/projects/banking-app">Banking App</Link>
-      <Link to="/projects/pos-app">POS System</Link>
+      <div className="project-navbar">
+        <Link to="/projects/banking-app">Banking App</Link>
+        <Link to="/projects/pos-app">POS System</Link>
+      </div>
 
-      <h1>hello</h1>
+
       <Outlet />
     </div>
   );

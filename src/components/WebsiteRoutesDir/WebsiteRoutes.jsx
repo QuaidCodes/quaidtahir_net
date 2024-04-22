@@ -20,7 +20,7 @@ function WebsiteRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/projects" element={<ProjectNavigation />} >
-          <Route index element={<Projects />} />
+          {/* <Route index element={<Projects />} /> */}
           <Route path="banking-app" element={<BankingSystem />}/>
           <Route path="pos-app" element={<POSSystem />}/>
         </Route>

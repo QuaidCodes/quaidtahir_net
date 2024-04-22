@@ -1,8 +1,9 @@
 
 .project-navigation {
     width: 100%;
-    background-color: blue;
-
+    height: 100vh;
+    position: relative;
+    display: flex;
 }
 
 .project-navigation a {
@@ -10,6 +11,16 @@
     color: white;
     font-size: 18px;
     text-decoration: none;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    
+}
+
+.project-navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-navigation a:hover {
+    background-color: white;
+    color: black;
 }
