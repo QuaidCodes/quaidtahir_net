@@ -1,4 +1,4 @@
-import Message from "../Message/Message";
+import Message from "../MessageDir/Message";
 
 import "./Contact.css";
 

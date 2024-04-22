@@ -1,8 +1,7 @@
-
-import NavBar from "./NavigationBar/NavBar"
+import NavBar from "./NavigationBarDir/NavBar";
 import BackgroundImage from "./BackgroundImageDir/BackgroundImage";
-import WebsiteRoutes from "./WebsiteRoutesDom/WebsiteRoutes";
-import SocialWidget from "./SocialWidget/SocialWidget";
+import WebsiteRoutes from "./WebsiteRoutesDir/WebsiteRoutes";
+import SocialWidget from "./SocialWidgetDir/SocialWidget";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
           <NavBar />
           <WebsiteRoutes />
         </div>
-      </div>
+      </div>s
     </>
   );
 }

@@ -10,6 +10,7 @@ import linkedin1 from "../../images/socials/icons8-linkedin-50 (1).png";
 import linkedin from "../../images/socials/icons8-linkedin-50.png";
 import x1 from "../../images/socials/icons8-x-50 (1).png";
 import x from "../../images/socials/icons8-x-50.png";
+
 import "./SocialWidget.css";
 
 function SocialWidget() {

@@ -3,14 +3,11 @@ import { Link } from "react-router-dom";
 
 import PortfolioIcon from "../../../images/icons/icons8-portfolio-50.png"
 import ContactIcon from "../../../images/icons/icons8-contact-50.png"
-import Music from "../../Music/Music"
 import "./LandingPage.css";
 
 function LandingPage() {
   return (
     <section className="landing-page">
-      <Music />
-
       <h1>Hello World!</h1>
       <h1>This is Quaid Tahir.</h1>
 

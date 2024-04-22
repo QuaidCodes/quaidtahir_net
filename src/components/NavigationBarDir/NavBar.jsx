@@ -13,7 +13,7 @@ function NavBar() {
   function selectedNavBar(target) {
     resetBg();
 
-    if (target      === "home") setBgColor("#36d1c4");
+    if (target === "home") setBgColor("#36d1c4");
     else if (target === "portfolio") setBgColorPortfolio("#36d1c4");
     else if (target === "projects") setBgColorProjects("#36d1c4");
     else if (target === "papers") setBgColorPapers("#36d1c4");
