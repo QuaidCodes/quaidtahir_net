@@ -1,0 +1,15 @@
+
+.project-navigation {
+    width: 100%;
+    background-color: blue;
+
+}
+
+.project-navigation a {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}
